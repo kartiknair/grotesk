@@ -31,7 +31,7 @@ function Example() {
 
 ## Customization
 
-The `<Grotesk>` component takes two props, a `theme` object and a boolean value called `fluid`. The former is an object that you can provide to theme grotesk the way you would like it, and the latter decided whether or not fluid typography is on (note that it is on by defualt).
+The `<Grotesk>` component takes two props, a `theme` object and a boolean value called `fluid`. The former is an object that you can provide to theme grotesk the way you would like it, and the latter decides whether or not fluid typography is on (note that it is on by defualt).
 
 The `theme` object has many properties to fully customize the look of grotesk and any excluded properties will default to the regular theme. Below is the default theme and also an example of a theme object:
 
