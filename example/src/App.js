@@ -50,12 +50,24 @@ export default class App extends Component {
     this.state = {
       theme: true
     }
+
+    if (localStorage.getItem("theme") === null) {
+      localStorage.setItem("theme", "light")
+    } else {
+      if (localStorage.getItem("theme") === "light") {
+        this.state = { theme: true }
+      } else {
+        this.state = { theme: false }
+      }
+    }
   }
 
   toggle() {
     this.setState(prevState => ({
       theme: !prevState.theme
-    }));
+    }), () => {
+      localStorage.setItem("theme", this.state.theme ? "light" : "dark")
+    });
   }
 
   render() {
@@ -83,15 +95,12 @@ export default class App extends Component {
             <hr />
             <p>
               This are a few inline styles. For example this is <strong>Bold</strong>,
-          this is <em>Italic</em> and this is a
-          <a href="https://example.com">Link</a>.
-        </p>
+              this is <em>Italic</em> and this is a <a href="https://example.com">Link</a>.
+            </p>
             <p>
-              How about some more inline styles, here is
-          <mark>highlighted text</mark> and here is some
-          <del>strikethrough text</del> (did you know the html tag for strikethrough
-          is <code>&lt;del&gt;&lt;/del&gt;</code>)
-        </p>
+              How about some more inline styles, here is <mark>highlighted text</mark>
+              and here is some <del>strikethrough text</del> (did you know the html tag for strikethrough is <code>&lt;del&gt;&lt;/del&gt;</code>)
+            </p>
             <hr />
             <p>You can showcase your code using some code snippets:</p>
             <pre>

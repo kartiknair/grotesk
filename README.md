@@ -62,7 +62,13 @@ const theme = {
 }
 ```
 
-To see how you can implement a dark mode check out the example in `./example/` ([live version](https://grotesk.now.sh)). Peace :v:
+To see how you can implement a dark mode check out the example in `./example/` ([live version](https://grotesk.now.sh)).
+
+## Final Notes
+
+If you have any problems just open an issue and I'll look into it.
+
+P.S: If you've made a website using grotesk or if you have any feature requests just holla at me over at twitter (@nairkartik\_), I would love to hear from you. Peace :v:
 
 ## License
 
