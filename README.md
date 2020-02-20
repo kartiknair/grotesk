@@ -1,6 +1,6 @@
 # grotesk
 
-A react component that makes web typography simple. It uses the power of semantic HTML and [emotion](https://emotion.sh) to make beautiful web type simple.
+A react component that uses the power of semantic HTML and [emotion](https://emotion.sh) to make beautiful web type simple.
 
 [![NPM](https://img.shields.io/npm/v/grotesk.svg)](https://www.npmjs.com/package/grotesk) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
