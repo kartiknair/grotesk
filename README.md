@@ -28,6 +28,37 @@ function Example() {
   )
 }
 ```
+If you would like the same font that the demo uses you can download it either from `./example/src/fonts/` or from it's official website. Then add the `@font-face` to your css or if you're using emotion to your `<Global>` element.
+
+```css
+/* CSS Example */
+@font-face {
+  font-family: space-grotesk;
+  src: url(./fonts/SpaceGrotesk-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: space-grotesk;
+  src: url(./fonts/SpaceGrotesk-Bold.woff2);
+  font-weight: 800;
+}
+```
+
+Also make sure to change your theme so that `<Grotesk>` knows to use the font:
+
+```jsx
+function Example() {
+  return (
+    <Grotesk theme={{fontFamMain: "space-grotesk, sans-serif"}}>
+      <div className="parent">
+        <h1>This is how you use grotesk</h1>
+        <p>I hope this helps you understand!</p>
+      </div>
+    </Grotesk>
+  )
+}
+```
 
 ## Customization
 
