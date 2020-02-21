@@ -43,13 +43,19 @@ export default class Grotesk extends Component {
   render() {
     const { theme, fluid, children } = this.props
 
+    Object.keys(defaultTheme).forEach(key => {
+      if (!theme.hasOwnProperty(key)) {
+        theme[key] = defaultTheme[key]
+      }
+    })
+
     const Container = styled.div`
-    background: ${theme.bg ? theme.bg : defaultTheme.bg};
+    background: ${theme.bg};
 
     width: 100%;
     height: 100%;
-    font-family: ${theme.fontFamMain ? theme.fontFamMain : defaultTheme.fontFamMain};
-    line-height: ${theme.lineHtMain ? theme.lineHtMain : defaultTheme.lineHtMain};
+    font-family: ${theme.fontFamMain};
+    line-height: ${theme.lineHtMain};
 
     // Type Scale
     h1 {
@@ -104,7 +110,7 @@ export default class Grotesk extends Component {
     h4,
     h5,
     h6 {
-      color: ${theme.fgHeadings ? theme.fgHeadings : defaultTheme.fgHeadings};
+      color: ${theme.fgHeadings};
     }
 
     p,
@@ -113,7 +119,7 @@ export default class Grotesk extends Component {
     li,
     blockquote,
     q {
-      color: ${theme.fgBody ? theme.fgBody : defaultTheme.fgBody};
+      color: ${theme.fgBody};
     }
 
     h1,
@@ -140,19 +146,19 @@ export default class Grotesk extends Component {
     }
 
     pre {
-      background-color: ${theme.preBg ? theme.preBg : defaultTheme.preBg};
+      background-color: ${theme.preBg};
       overflow: auto;
       padding: 0 2rem;
       code {
         background: none;
-        color: ${theme.preColor ? theme.preColor : defaultTheme.preColor};
+        color: ${theme.preColor};
         padding: 0;
       }
     }
 
     code {
-      background-color: ${theme.inlineCodeBg ? theme.inlineCodeBg : defaultTheme.inlineCodeBg};
-      color: ${theme.inlineCodeColor ? theme.inlineCodeColor : defaultTheme.inlineCodeColor};
+      background-color: ${theme.inlineCodeBg};
+      color: ${theme.inlineCodeColor};
       padding: 0.2rem;
       border-radius: 0.2rem;
     }
@@ -163,12 +169,12 @@ export default class Grotesk extends Component {
 
     hr {
       height: 1px;
-      background-color: ${theme.hrColor ? theme.hrColor : defaultTheme.hrColor};
+      background-color: ${theme.hrColor};
       border: none;
     }
 
     a {
-      color: ${theme.linkColor ? theme.linkColor : defaultTheme.linkColor};
+      color: ${theme.linkColor};
       text-decoration: none;
     }
 
@@ -177,9 +183,9 @@ export default class Grotesk extends Component {
     }
 
     blockquote {
-      background-color: ${theme.quoteBg ? theme.quoteBg : defaultTheme.quoteBg};
-      color: ${theme.quoteColor ? theme.quoteColor : defaultTheme.quoteColor};
-      border-left: 0.4em solid ${theme.quoteBorder ? theme.quoteBorder : defaultTheme.quoteBorder};
+      background-color: ${theme.quoteBg};
+      color: ${theme.quoteColor};
+      border-left: 0.4em solid ${theme.quoteBorder};
       padding: 0.4rem 0;
       padding-left: 1.5rem;
       font-style: italic;
@@ -191,7 +197,7 @@ export default class Grotesk extends Component {
     footer {
       width: 100%;
       padding: 0.8rem;
-      border-top: 1px solid ${theme.hrColor ? theme.hrColor : defaultTheme.hrColor};
+      border-top: 1px solid ${theme.hrColor};
       text-align: center;
       p,
       a {
@@ -208,7 +214,7 @@ export default class Grotesk extends Component {
             body {
               width: 100%;
               height: 100%;
-              background: ${theme.bg ? theme.bg : defaultTheme.bg};
+              background: ${theme.bg};
             }
 
             ${fluid ? ':root {font-size: calc(0.8rem + 0.5vw);}' : ''}
