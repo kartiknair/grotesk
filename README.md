@@ -1,6 +1,6 @@
 # grotesk
 
-A react component that uses the power of semantic HTML and [emotion](https://emotion.sh) to make beautiful web type simple.
+A react component ([and css library](https://github.com/kartiknair/grotesk-css)) that uses the power of semantic HTML and [emotion](https://emotion.sh) to make beautiful web type simple.
 
 [![NPM](https://img.shields.io/npm/v/grotesk.svg)](https://www.npmjs.com/package/grotesk) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -28,7 +28,7 @@ function Example() {
   )
 }
 ```
-If you would like the same font that the demo uses you can download it either from `./example/src/fonts/` or from it's official website. Then add the `@font-face` to your css or if you're using emotion to your `<Global>` element.
+If you would like the same font that the demo uses you can download it either from `./example/src/fonts/` or from it's [official website](https://fonts.floriankarsten.com/space-grotesk). Then add the `@font-face` to your css, or if you're using emotion to your `<Global>` element.
 
 ```css
 /* CSS Example */

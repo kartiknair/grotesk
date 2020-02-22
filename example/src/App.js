@@ -36,7 +36,7 @@ const darkTheme = {
   preBg: '#1b191f',
   preColor: 'rgba(255, 255, 255, 0.7)',
 
-  inlineCodeBg: '#2d3748',
+  inlineCodeBg: '#1b191f',
   inlineCodeColor: '#ef6b6b',
 
   quoteBg: '#131217',
@@ -86,9 +86,9 @@ export default class App extends Component {
             <hr />
             <p>grotesk is a react component (<a href="https://github.com/kartiknair/grotesk-css">and css library</a>) that makes web typography simple.
             It offers a simple start of basic styles targetting rich text elements that use semantic HTML, and also (optionally) uses
-            fluid typography. Download it using <code>npm i grotesk</code> in your react app and use it directly by wrapping your content in a <code>&lt;Grotesk&gt;</code>
-              component. To customize you can pass a theme object as prop to the component for examples and documentation see
-            <a href="https://github.com/kartiknair/grotesk-css">GitHub</a> Scroll down to see how grotesk looks in action:</p>
+            fluid typography. Download it using <code>npm i grotesk</code> in your react app and use it directly by wrapping your content in a <code>&lt;Grotesk&gt;</code> component.
+            To customize you can pass a theme object as prop to the component for examples and documentation see <a href="https://github.com/kartiknair/grotesk-css">GitHub</a>.
+            Scroll down to see how grotesk looks in action:</p>
             <h1>Heading 1</h1>
             <h2>Heading 2</h2>
             <h3>Heading 3</h3>
@@ -101,8 +101,7 @@ export default class App extends Component {
               this is <em>Italic</em> and this is a <a href="https://example.com">Link</a>.
             </p>
             <p>
-              How about some more inline styles, here is <mark>highlighted text</mark>
-              and here is some <del>strikethrough text</del> (did you know the html tag for strikethrough is <code>&lt;del&gt;&lt;/del&gt;</code>)
+              How about some more inline styles, here is <mark>highlighted text</mark> and here is some <del>strikethrough text</del> (did you know the html tag for strikethrough is <code>&lt;del&gt;&lt;/del&gt;</code>)
             </p>
             <hr />
             <p>You can showcase your code using some code snippets:</p>
@@ -131,13 +130,9 @@ if (filenameFlashIbm + kilohertzFormatPebibyte) {
             <hr />
             <p>Or quote other people's work: </p>
             <blockquote>
-              'The HTML blockquote Element (or HTML Block Quotation Element) indicates
-              that the enclosed text is an extended quotation. Usually, this is rendered
-        visually by indentation (see <a
-                href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote#Usage_notes'>Notes</a>
-              for how to change it). A URL for the source of the quotation may be given
-              using the
-      </blockquote>
+              'The HTML blockquote Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation.
+              Usually, this is rendered visually by indentation (see <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote#Usage_notes'>Notes</a> for how to change it).
+            </blockquote>
             <hr />
             <h3>How about lists?</h3>
             <p>This is a bullet list</p>
