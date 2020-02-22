@@ -141,7 +141,7 @@ if (filenameFlashIbm + kilohertzFormatPebibyte) {
               <li>Second Element</li>
               <li>Third Element</li>
             </ul>
-            <p>This is an numbered list</p>
+            <p>This is a numbered list</p>
             <ol>
               <li>First Element</li>
               <li>Second Element</li>
@@ -152,7 +152,7 @@ if (filenameFlashIbm + kilohertzFormatPebibyte) {
               <li>Coffee</li>
               <li>
                 Tea
-          <ol>
+                <ol>
                   <li>Black tea</li>
                   <li>Green tea</li>
                 </ol>
