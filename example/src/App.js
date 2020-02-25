@@ -21,7 +21,7 @@ const lightTheme = {
   quoteBg: '#ffffff',
   quoteBorder: '#8a4baf',
   quoteColor: '#6a727c',
-  fontFamMain: 'space grotesk, sans-serif'
+  fontFamMain: 'space-grotesk, sans-serif'
 }
 
 const darkTheme = {
@@ -42,7 +42,7 @@ const darkTheme = {
   quoteBg: '#131217',
   quoteBorder: '#b17acc',
   quoteColor: '#6a727c',
-  fontFamMain: 'space grotesk, sans-serif'
+  fontFamMain: 'space-grotesk, sans-serif'
 }
 
 export default class App extends Component {
@@ -84,7 +84,7 @@ export default class App extends Component {
               </div>
             </header>
             <hr />
-            <p>grotesk is a react component (<a href="https://github.com/kartiknair/grotesk-css">and css library</a>) that makes web typography simple.
+            <p>grotesk is a css library (and <a href="https://github.com/kartiknair/grotesk-css">React Component</a>) that makes web typography simple.
             It offers a simple start of basic styles targetting rich text elements that use semantic HTML, and also (optionally) uses
             fluid typography. Download it using <code>npm i grotesk</code> in your react app and use it directly by wrapping your content in a <code>&lt;Grotesk&gt;</code> component.
             To customize you can pass a theme object as prop to the component for examples and documentation see <a href="https://github.com/kartiknair/grotesk-css">GitHub</a>.

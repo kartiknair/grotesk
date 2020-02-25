@@ -11,13 +11,13 @@ header {
 
 @font-face {
   font-family: space-grotesk;
-  src: url(./fonts/SpaceGrotesk-Regular.woff);
+  src: local('SpaceGrotesk-Regular'), url(./fonts/SpaceGrotesk-Regular.woff) format('woff');
   font-weight: 400;
 }
 
 @font-face {
   font-family: space-grotesk;
-  src: url(./fonts/SpaceGrotesk-Bold.woff);
+  src: local('SpaceGrotesk-Bold'), url(./fonts/SpaceGrotesk-Bold.woff) format('woff');
   font-weight: 800;
 }
 
