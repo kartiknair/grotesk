@@ -22,7 +22,7 @@ const defaultTheme = {
   quoteBorder: '#8a4baf',
   quoteColor: '#6a727c',
 
-  fontFamMain: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";',
+  fontFamMain: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
   fontFamMono: 'Menlo, Monaco, Consolas, "Liberation Mono", "Courier New" monospace',
   lineHtMain: '1.5',
   lineHtMono: '1'
