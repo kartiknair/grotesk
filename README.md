@@ -1,8 +1,16 @@
 # grotesk
 
-A react component ([and css library](https://github.com/kartiknair/grotesk-css)) that uses the power of semantic HTML and [emotion](https://emotion.sh) to make beautiful web type simple.
+A CSS library and React Component that uses the power of Scss and [emotion](https://emotion.sh) to make beautiful web type simple.
 
 [![NPM](https://img.shields.io/npm/v/grotesk.svg)](https://www.npmjs.com/package/grotesk) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Features
+
+- Tiny (The minified CSS file for one theme comes in at only `1.8kb`)
+- Vast customization (Everything is customizable make it look exactly the way you want)
+- Out-of-the-box support for fluid type
+- Browser Support (With fluid-type: 94.56% of all users, Without: 100% of all users)
+- CSS-in-JS using emotion and dynamic theming (if you use the React component)
 
 ## Install
 
@@ -27,7 +35,7 @@ For the the react component just run `npm i grotesk` in your react app.
 
 ## grotesk vs grotesk.css
 
-Which one is for you? I would personally recommend the css library for almost all people. Even if you are using a react project, for most cases the css library is good enough. The only cases where I would recommend the react component is when your project already uses emotion or if you are planning to do a lot of dynamic theming (like more than two themes).
+Which one is for you? I would personally recommend the css library for almost all people. Even if you are using a React project, for most cases the css library is good enough. The only cases where I would recommend the React component is when your project already uses emotion or if you are planning to do a lot of dynamic theming (like more than two themes).
 
 ## Simple usage (CSS)
 
@@ -54,9 +62,9 @@ function Example() {
 
 ## Customization CSS
 
-grotesk-css uses the power of scss variables to allow customization. I know css custom properties exist now, but I know some people would like to support legacy browsers like IE11 & I don;t want to discriminate against them.
+grotesk-css uses the power of Scss variables to allow customization. I know CSS custom properties exist now, but I know some people would like to support legacy browsers like IE11 which is why I stuck with Scss and then compiling to good ol' CSS.
 
-The scss variables are pretty self explanatory in their names. Here's an example theme:
+The Scss variables are pretty self explanatory in their names. Here's an example theme:
 
 ```scss
 $bg: #131217;
