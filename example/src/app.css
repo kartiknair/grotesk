@@ -11,18 +11,24 @@ header {
 
 @font-face {
   font-family: space-grotesk;
-  src: url(./fonts/SpaceGrotesk-Regular.woff2);
+  src: url(./fonts/SpaceGrotesk-Regular.woff);
   font-weight: 400;
 }
 
 @font-face {
   font-family: space-grotesk;
-  src: url(./fonts/SpaceGrotesk-Bold.woff2);
+  src: url(./fonts/SpaceGrotesk-Bold.woff);
   font-weight: 800;
 }
 
 .parent {
   margin: 2.5% 10%;
+}
+
+@media (max-width: 500px) {
+  .parent {
+    margin: 5% 10%;
+  }
 }
 
 .cont {

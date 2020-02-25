@@ -21,7 +21,7 @@ const lightTheme = {
   quoteBg: '#ffffff',
   quoteBorder: '#8a4baf',
   quoteColor: '#6a727c',
-  fontFamMain: 'space-grotesk, sans-serif'
+  fontFamMain: 'space grotesk, sans-serif'
 }
 
 const darkTheme = {
@@ -42,7 +42,7 @@ const darkTheme = {
   quoteBg: '#131217',
   quoteBorder: '#b17acc',
   quoteColor: '#6a727c',
-  fontFamMain: 'space-grotesk, sans-serif'
+  fontFamMain: 'space grotesk, sans-serif'
 }
 
 export default class App extends Component {
@@ -168,7 +168,7 @@ if (filenameFlashIbm + kilohertzFormatPebibyte) {
           </div>
           <footer>
             <p>
-              Made by <a href="https://kartikn.me">Kartik Nair</a> · View source on <a
+              Made by <a href="https://github.com/kartiknair">Kartik Nair</a> · View source on <a
                 href="https://github.com/kartiknair/grotesk">GitHub</a>
             </p>
           </footer>
