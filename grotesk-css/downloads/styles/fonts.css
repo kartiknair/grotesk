@@ -1,0 +1,12 @@
+@font-face {
+  font-family: space-grotesk;
+  src: url("../fonts/SpaceGrotesk-Regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: space-grotesk;
+  src: url("../fonts/SpaceGrotesk-Bold.woff");
+  font-weight: 800;
+}
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,77 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+:root {
+  font-size: calc(0.8rem + 0.5vw);
+}
+
+.parent {
+  margin: 2.5% 10%;
+}
+
+.cont {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.switch {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  transform: scale(1);
+  box-shadow: inset 8px -8px 0px 0px #2d3748;
+  border-radius: 50%;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  transition: all 0.45s ease 0s;
+  overflow: hidden;
+}
+
+.switch::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 -23px 0 #2d3748, 0 23px 0 #2d3748, 23px 0 0 #2d3748,
+    -23px 0 0 #2d3748, 15px 15px 0 #2d3748, -15px 15px 0 #2d3748,
+    15px -15px 0 #2d3748, -15px -15px 0 #2d3748;
+  transform: scale(0);
+  border-radius: 50%;
+  margin: -4px 0px 0px -4px;
+  transition: all 0.35s ease 0s;
+}
+
+.dark .switch {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: #cbd5e0;
+  transform: scale(0.55);
+  box-shadow: none;
+  border-radius: 50%;
+  transition: all 0.45s ease 0s;
+  overflow: visible;
+}
+
+.dark .switch::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 -23px 0 #cbd5e0, 0 23px 0 #cbd5e0, 23px 0 0 #cbd5e0,
+    -23px 0 0 #cbd5e0, 15px 15px 0 #cbd5e0, -15px 15px 0 #cbd5e0,
+    15px -15px 0 #cbd5e0, -15px -15px 0 #cbd5e0;
+  transform: scale(1);
+  border-radius: 50%;
+  margin: -4px 0px 0px -4px;
+  transition: all 0.35s ease 0s;
+}

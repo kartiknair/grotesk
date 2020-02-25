@@ -1,0 +1,17 @@
+@font-face {
+  font-family: space-grotesk;
+  src: url("../fonts/SpaceGrotesk-Regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: space-grotesk;
+  src: url("../fonts/SpaceGrotesk-Bold.woff");
+  font-weight: 800;
+}
+
+$font-fam-main: space-grotesk, sans-serif;
+$font-fam-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+  monospace;
+$line-ht-main: 1.5;
+$line-ht-mono: 1;

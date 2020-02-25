@@ -1,0 +1,186 @@
+/* Variable Declarations */
+/* If you don't wanna add the external font get rid of the @font-face and change the value of $font-fam-main to:
+system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+*/
+@font-face {
+  font-family: space-grotesk;
+  src: url("../fonts/SpaceGrotesk-Regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: space-grotesk;
+  src: url("../fonts/SpaceGrotesk-Bold.woff");
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  background: #131217;
+}
+
+.grotesk {
+  width: 100%;
+  height: 100%;
+  font-family: space-grotesk, sans-serif;
+  line-height: 1.5;
+}
+
+.grotesk h1 {
+  font-size: 2rem;
+}
+
+.grotesk h2 {
+  font-size: 1.7411rem;
+}
+
+.grotesk h3 {
+  font-size: 1.5157rem;
+}
+
+.grotesk h4 {
+  font-size: 1.3195rem;
+}
+
+.grotesk h5 {
+  font-size: 1.1487rem;
+}
+
+.grotesk h6 {
+  font-size: 1rem;
+}
+
+.grotesk p,
+.grotesk a,
+.grotesk ul,
+.grotesk ol,
+.grotesk li {
+  font-size: 1rem;
+}
+
+.grotesk blockquote,
+.grotesk q,
+.grotesk code,
+.grotesk kbd,
+.grotesk mark {
+  font-size: 0.8rem;
+}
+
+.grotesk blockquote cite,
+.grotesk q cite {
+  font-size: 0.7rem;
+}
+
+.grotesk h1,
+.grotesk h2,
+.grotesk h3,
+.grotesk h4,
+.grotesk h5,
+.grotesk h6 {
+  color: #e6e5e9;
+}
+
+.grotesk p,
+.grotesk ul,
+.grotesk ol,
+.grotesk li,
+.grotesk blockquote,
+.grotesk q {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.grotesk h1,
+.grotesk h2,
+.grotesk h3,
+.grotesk h4,
+.grotesk h5,
+.grotesk h6,
+.grotesk p,
+.grotesk a,
+.grotesk blockquote,
+.grotesk q,
+.grotesk hr {
+  margin: 1rem 0;
+}
+
+.grotesk ul,
+.grotesk ol {
+  margin: 0.5rem 1.5rem;
+}
+
+.grotesk li {
+  margin: 0.2rem 0;
+}
+
+.grotesk pre {
+  background-color: #1b191f;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.grotesk pre code {
+  background: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0;
+}
+
+.grotesk code {
+  background-color: #1b191f;
+  color: #ef6b6b;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.grotesk mark {
+  padding: 0.2rem;
+}
+
+.grotesk hr {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+
+.grotesk a {
+  color: #b17acc;
+  text-decoration: none;
+}
+
+.grotesk a:hover {
+  text-decoration: underline;
+}
+
+.grotesk blockquote {
+  background-color: #131217;
+  color: #6a727c;
+  border-left: 0.4em solid #b17acc;
+  padding: 0.4rem 0;
+  padding-left: 1.5rem;
+  font-style: italic;
+}
+
+.grotesk blockquote a {
+  font-size: inherit;
+}
+
+.grotesk footer {
+  width: 100%;
+  padding: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.grotesk footer p,
+.grotesk footer a {
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=grotesk.dark.css.map */
