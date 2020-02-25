@@ -133,7 +133,7 @@ I'm sure there's probably some bugs in there that I haven't yet encountered so i
 
 ---
 
-P.S: I would love to add a "Websites that use grotesk" secotion to the README, so if you've made a website using grotesk or if you have any feature requests either open a PR or just DM me over at twitter ([at]nairkartik_). I would love to hear from you. Peace. :v:
+P.S: I would love to add a "Websites that use grotesk" section to the README, so if you've made a website using grotesk or if you have any feature requests either open a PR or just DM me over at twitter ([at]nairkartik_). I would love to hear from you. Peace. :v:
 
 ## License
 
